@@ -1,10 +1,9 @@
 
-from dataclasses import dataclass
 from typing import Optional
+
 from wildlife_tracker.habitat_management.habitat import Habitat
 
 
-@dataclass
 class MigrationPath:
 
     def __init__(self,
